@@ -40,7 +40,6 @@ class Profile extends React.Component {
             {/* Circles background */}
             <div className="shape shape-style-1 shape-default alpha-4">
               <span />
-           
               <span />
               <span />
               <span />
@@ -146,8 +145,8 @@ class Profile extends React.Component {
                       <Col lg="9">
                         <p>
                         My name is  Aseel , I'm 23 years old, and I'm a fresh graduate ,
-                        I have a bachelor's degree of computer science from Yarmouk university. 
-                        I have a background in several Programming language such as (Python, Java , android ).
+                        I have a bachelor's degree of computer science from Yarmouk university. I have a background
+                         in several Programming language such as (Python, Java , android ).
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more

@@ -110,19 +110,23 @@ class DemoNavbar extends React.Component {
                 </div>
                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
                   
+                 
+             
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Menu</span>
+                      <span className="nav-link-inner--text">Examples</span>
                     </DropdownToggle>
                     <DropdownMenu>
                       <DropdownItem to="/portfolio" tag={Link}>
                         portfolio
                       </DropdownItem>
-                      <DropdownItem to="/Profile" tag={Link}>
+                      <DropdownItem to="/profile-page" tag={Link}>
                         Profile
                       </DropdownItem>
-                    
+                      <DropdownItem to="/Landing-page" tag={Link}>
+                        Landing
+                      </DropdownItem>
                     </DropdownMenu>
                   </UncontrolledDropdown>
                 </Nav>
@@ -134,7 +138,7 @@ class DemoNavbar extends React.Component {
                       id="tooltip333589074"
                       target="_blank"
                     >
-                      <i className="fa fa-linkedin-square" />
+                      <i className="fa fa-facebook-square" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
                         linkedin
                       </span>
@@ -143,11 +147,11 @@ class DemoNavbar extends React.Component {
                       Like us on linkedin
                     </UncontrolledTooltip>
                   </NavItem>
-                  
+              
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://github.com/"
+                      href="https://github.com/AseelAlasaad"
                       id="tooltip112445449"
                       target="_blank"
                     >
@@ -161,7 +165,6 @@ class DemoNavbar extends React.Component {
                     </UncontrolledTooltip>
                   </NavItem>
                  
-                
                 </Nav>
               </UncontrolledCollapse>
             </Container>

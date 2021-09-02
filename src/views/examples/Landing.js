@@ -19,7 +19,7 @@ import React from "react";
 // nodejs library that concatenates classes
 import classnames from "classnames";
 import promo1 from "assets/img/theme/promo-1.png";
-import cardImg from "assets/img/theme/img-1-1200x1000.jpg";
+import cardImg from "assets/img/theme/aseelgit.jpg";
 import ill2 from "assets/img/ill/ill-2.svg";
 import team1 from "assets/img/theme/team-1-800x800.jpg";
 import team2 from "assets/img/theme/team-2-800x800.jpg";
@@ -81,38 +81,14 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                       Web Development {" "}
+                        <span>Full stack developer</span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                        
                       </p>
-                      <div className="btn-wrapper">
-                        <Button
-                          className="btn-icon mb-3 mb-sm-0"
-                          color="info"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
-                        >
-                          <span className="btn-inner--icon mr-1">
-                            <i className="fa fa-code" />
-                          </span>
-                          <span className="btn-inner--text">Components</span>
-                        </Button>
-                        <Button
-                          className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
-                          color="default"
-                          href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                        >
-                          <span className="btn-inner--icon mr-1">
-                            <i className="ni ni-cloud-download-95" />
-                          </span>
-                          <span className="btn-inner--text">
-                            Download React
-                          </span>
-                        </Button>
-                      </div>
+                     
+                      
                     </Col>
                   </Row>
                 </div>
@@ -148,23 +124,19 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                          Background
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                           Java
+                           <br></br>
+                           Python
+                           <br></br>
+                           android
+                           <br></br>
+                           git&github
                           </p>
                           <div>
-                            <Badge color="primary" pill className="mr-1">
-                              design
-                            </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              system
-                            </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              creative
-                            </Badge>
+                            
                           </div>
                           <Button
                             className="mt-4"
@@ -184,24 +156,16 @@ class Landing extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            Project: Heart Disease Detection
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                         Desktop application, programmed using python, 
+                        determine if the patient have heart disease using machine learning. 
+
+
+
                           </p>
-                          <div>
-                            <Badge color="success" pill className="mr-1">
-                              business
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              vision
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              success
-                            </Badge>
-                          </div>
+                         
                           <Button
                             className="mt-4"
                             color="success"
@@ -220,24 +184,18 @@ class Landing extends React.Component {
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            Project: Real Estate Company
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                          Web Site  , programmed using  JavaScript ,Html, CSS .
+
+                          <br></br>
+<br></br>
+
+<br></br>
+
                           </p>
-                          <div>
-                            <Badge color="warning" pill className="mr-1">
-                              marketing
-                            </Badge>
-                            <Badge color="warning" pill className="mr-1">
-                              product
-                            </Badge>
-                            <Badge color="warning" pill className="mr-1">
-                              launch
-                            </Badge>
-                          </div>
+                          
                           <Button
                             className="mt-4"
                             color="warning"
@@ -266,7 +224,7 @@ class Landing extends React.Component {
                 </Col>
                 <Col className="order-md-1" md="6">
                   <div className="pr-md-5">
-                    <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
+                    {/* <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
                       <i className="ni ni-settings-gear-65" />
                     </div>
                     <h3>Awesome features</h3>
@@ -325,7 +283,7 @@ class Landing extends React.Component {
                           </div>
                         </div>
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </Col>
               </Row>
@@ -359,12 +317,10 @@ class Landing extends React.Component {
                         />
                       </svg>
                       <h4 className="display-3 font-weight-bold text-white">
-                        Design System
+                       Aseel Alasaad
                       </h4>
                       <p className="lead text-italic text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever happens.
+                      My name is  Aseel , I'm 23 years old, and I'm a fresh graduate ,I have a bachelor's degree of computer science from Yarmouk university. I have a background in several Programming language such as (Python, Java , android ).
                       </p>
                     </blockquote>
                   </Card>
@@ -374,28 +330,27 @@ class Landing extends React.Component {
                     <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
                       <i className="ni ni-settings" />
                     </div>
-                    <h3>Our customers</h3>
+                    <h3> Aseel Alasaad</h3>
                     <p className="lead">
-                      Don't let your uses guess by attaching tooltips and
-                      popoves to any element. Just make sure you enable them
-                      first via JavaScript.
+                    i decided to join in ASAC to profissional become a 
+                    web developer and be able to build an effective application from A to Z
                     </p>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                    I graduated with my degree in Computer science, and I will excited to get the position of 
+                     the Full-stack developer. My longer-term goals are to learn a variety of areas . 
+                     in the computer field there are always new tools and technologies coming out. 
+                     I’d like to become an expert in one specific  , 
+                    but I know the first step is to build a solid foundation and learn the basics.
                     </p>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                     
                     </p>
                     <a
                       className="font-weight-bold text-warning mt-5"
                       href="#pablo"
                       onClick={e => e.preventDefault()}
                     >
-                      A beautiful UI Kit for impactful websites
+                      {/* A beautiful UI Kit for impactful websites */}
                     </a>
                   </div>
                 </Col>
