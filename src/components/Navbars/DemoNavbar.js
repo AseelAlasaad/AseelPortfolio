@@ -164,7 +164,6 @@ class DemoNavbar extends React.Component {
                       Star us on Github
                     </UncontrolledTooltip>
                   </NavItem>
-                 
                 </Nav>
               </UncontrolledCollapse>
             </Container>

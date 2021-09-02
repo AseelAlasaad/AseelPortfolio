@@ -338,7 +338,8 @@ class Landing extends React.Component {
                     <p>
                     I graduated with my degree in Computer science, and I will excited to get the position of 
                      the Full-stack developer. My longer-term goals are to learn a variety of areas . 
-                     in the computer field there are always new tools and technologies coming out. 
+                     in the computer field there are always new tools 
+                     and technologies coming out. 
                      I’d like to become an expert in one specific  , 
                     but I know the first step is to build a solid foundation and learn the basics.
                     </p>
