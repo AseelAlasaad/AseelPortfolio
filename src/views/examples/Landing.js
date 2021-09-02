@@ -320,7 +320,9 @@ class Landing extends React.Component {
                        Aseel Alasaad
                       </h4>
                       <p className="lead text-italic text-white">
-                      My name is  Aseel , I'm 23 years old, and I'm a fresh graduate ,I have a bachelor's degree of computer science from Yarmouk university. I have a background in several Programming language such as (Python, Java , android ).
+                      My name is  Aseel , I'm 23 years old, and I'm a fresh graduate ,
+                      I have a bachelor's degree of computer science from Yarmouk university. 
+                      I have a background in several Programming language such as (Python, Java , android ).
                       </p>
                     </blockquote>
                   </Card>
@@ -343,7 +345,6 @@ class Landing extends React.Component {
                     but I know the first step is to build a solid foundation and learn the basics.
                     </p>
                     <p>
-                     
                     </p>
                     <a
                       className="font-weight-bold text-warning mt-5"
