@@ -129,8 +129,7 @@ class DemoNavbar extends React.Component {
                               Getting started
                             </h6>
                             <p className="description d-none d-md-inline-block mb-0">
-                              Learn how to use Argon compiling Scss, change
-                              brand colors and more.
+                          
                             </p>
                           </Media>
                         </Media>
@@ -147,8 +146,7 @@ class DemoNavbar extends React.Component {
                               Foundation
                             </h6>
                             <p className="description d-none d-md-inline-block mb-0">
-                              Learn more about colors, typography, icons and the
-                              grid system we used for Argon.
+                             
                             </p>
                           </Media>
                         </Media>
@@ -165,8 +163,7 @@ class DemoNavbar extends React.Component {
                               Components
                             </h5>
                             <p className="description d-none d-md-inline-block mb-0">
-                              Browse our 50 beautiful handcrafted components
-                              offered in the Free version.
+                              
                             </p>
                           </Media>
                         </Media>
