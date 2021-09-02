@@ -40,6 +40,7 @@ class Profile extends React.Component {
             {/* Circles background */}
             <div className="shape shape-style-1 shape-default alpha-4">
               <span />
+           
               <span />
               <span />
               <span />
@@ -112,7 +113,7 @@ class Profile extends React.Component {
                           <span className="description">Project</span>
                         </div>
                         <div>
-                          <span className="heading">No</span>
+                          <span className="heading">0</span>
                           <span className="description">experience</span>
                         </div>
                         <div>
@@ -144,11 +145,9 @@ class Profile extends React.Component {
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                        My name is  Aseel , I'm 23 years old, and I'm a fresh graduate ,
+                        I have a bachelor's degree of computer science from Yarmouk university. 
+                        I have a background in several Programming language such as (Python, Java , android ).
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
