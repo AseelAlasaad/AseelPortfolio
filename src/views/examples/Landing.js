@@ -334,8 +334,8 @@ class Landing extends React.Component {
                     </div>
                     <h3> Aseel Alasaad</h3>
                     <p className="lead">
-                    i decided to join in ASAC to profissional become a 
-                    web developer and be able to build an effective application from A to Z
+                    I decided to join in ASAC to become professional web developer 
+                    and to be able to build an effective application from A to Z
                     </p>
                     <p>
                     I graduated with my degree in Computer science, and I will excited to get the position of 
