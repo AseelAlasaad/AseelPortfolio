@@ -136,6 +136,7 @@ class Profile extends React.Component {
                       Full stack developer
                     </div>
                     <div>
+                      
                       <i className="ni education_hat mr-2" />
                        Computer Science
                     </div>
